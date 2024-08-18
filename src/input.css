@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heading-title{
+    @apply text-3xl
+}
+
+.grid-content{
+    @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3;
+}
+
+.grid-content .item-1{
+    @apply p-20 bg-green-400
+}
+
+.grid-content .item-2{
+    @apply p-20 bg-red-400 
+}
+
+.grid-content .item-3{
+    @apply p-20 bg-black
+}
