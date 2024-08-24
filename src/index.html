@@ -6,12 +6,16 @@
     <title>Capstone</title>
 
     <!-- Font Google -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     />
+
+    <!-- Link icon -->
+    <link rel="stylesheet" href="https://glyphsearch.com/bower_components/font-awesome/css/all.min.css">
+
+    <!-- Input -->
+     <link rel="stylesheet" href="./input.css">
 
     <!-- Output -->
     <link rel="stylesheet" href="./output.css" />
@@ -19,10 +23,10 @@
   <body>
     <header>
       <nav
-        class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600 py-2 "
+        class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-gray-200 dark:border-gray-600 py-2  "
       >
         <div
-          class="max-w-c-1390 flex flex-wrap items-center justify-between  p-4"
+          class=" flex flex-wrap items-center justify-between   mx-7 px-9"
         >
           <a
             href="https://flowbite.com/"
@@ -30,12 +34,16 @@
           >
             <img src="../images/image.png" class="h-8" alt="" />
           </a>
-          <div
-            class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse"
-          >
-            <button
-              type="button"
-              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-7 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 ">Sign Up</button>
+          <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse ">
+            
+            <div class="icon-header  ">
+                <i class="fa fa-search py-6 mx-4 cursor-pointer "></i>
+                <i class="fa fa-moon py-6 mx-4 cursor-pointer "></i>
+            </div>
+            
+            <button type="button" class="py-3 px-7  text-sm font-medium text-gray-900 focus:outline-none bg-white  hover:text-blue-700 focus:z-10 ">Sign In</button>
+
+            <button  type="button"  class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-7  text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 ">Sign Up</button>
             <button
               data-collapse-toggle="navbar-sticky"
               type="button"
@@ -62,7 +70,7 @@
             </button>
           </div>
           <div
-            class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+            class="items-center pr-24 mr-1 justify-between hidden w-full md:flex md:w-auto md:order-1"
             id="navbar-sticky"
           >
             <ul
@@ -136,6 +144,176 @@
       </nav>
     </header>
 
+    <main>
+        <div class="banner overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46  ">
+            <div class="container mx-auto  px-4 md:px-8 2xl:px-0  ">
+                <div class="flex gap-y-32">
+                    <div class="text-left md:w-1/2 px-16">
+                        <h4 class=" mt-16 text-black text-lg font-medium">🔥 Solid - A Complete SaaS Starter Template for SaaS</h4>
+    
+                        <h1 class="leading-snug text-5xl mr-8 font-bold tracking-wide text-black py-8">Robust SaaS Boilerplate and Starter for <span class="relative ml-2.5 inline-block before:absolute before:bottom-3.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">Next.js</span></h1>
+    
+                        <p class="mb-11">Packed with all the key integrations you need for swift SaaS startup launch, including - Authentication, Database, Sanity Blog, Essential UI Components, Business Pages and More. Built-winth - Next.js, React 18 and TypeScript.</p>
+    
+                        <button type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium px-7 py-3 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 rounded-full text-sm">Get Started</button>
+    
+                    </div>
+                    <div class="img-right relative w-1/2 inset-0  ">
+                        <div class="item-2 relative ">
+                            <img class="banner-left absolute" src="../images/banner-left.png" alt="">
+                         
+                        </div>
+                        <div class="item-1">
+                            <img class="h-full absolute dark:hidden inset-0" src="../images/banner.png" alt=""> 
+                            <img class="star-1 absolute z-10" src="../images/star 1.png" alt="">
+                            <img class="star-2 absolute z-10" src="../images/star 2.png" alt="">
+                        </div>  
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="logo border border-x-0 border-y-stroke bg-alabaster py-11 dark:border-y-strokedark dark:bg-black">
+            <div class="mx-auto px-4 md:px-8 2xl:px-0">
+                <div class="grid grid-cols-3 items-center justify-center gap-7.5 md:grid-cols-6 lg:gap-12.5 xl:gap-29">
+
+                    <a href="#" class="flex items-center md:justify-center animate_top relative ">
+                      <img class=" opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden h-7 hover:text-gray-900 dark:hover:text-white " fill="none" src="../images/logitech.png" alt="">
+                    </a>
+    
+                    <a href="#" class="flex items-center md:justify-center">
+                      <img class=" opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden h-7 hover:text-gray-900 dark:hover:text-white" fill="none"  src="../images/dropcam.png" alt="Dropcam">
+                    </a>
+    
+                    <a href="#" class="flex items-center md:justify-center">
+                        <img class="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden h-8 hover:text-gray-900 dark:hover:text-white" fill="none" src="../images/amd.png" alt="AMD">
+                    </a>
+    
+                    <a href="#" class="flex items-center md:justify-center">
+                      <img class="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden h-8 hover:text-gray-900 dark:hover:text-white" fill="none" src="../images/logo-nike.png" alt="Logo-Nike">
+                    </a>
+    
+                    <a href="#" class="flex items-center md:justify-center">
+                        <img class="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden h-8 hover:text-gray-900 dark:hover:text-white" fill="none" src="../images/mandiri.png" alt="Mandiri">
+                    </a>
+    
+                    <a href="#" class="flex items-center md:justify-center">
+                      <img class="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden h-8 hover:text-gray-900 dark:hover:text-white" fill="none" src="../images/amazon.png" alt="Amazon">
+                    </a>
+    
+                  </div>
+            </div>
+        </section>
+
+        <section class="text-features py-20 lg:py-25 xl:py-30 mx-20">
+            <div class="container mx-auto  md:px-8 xl:px-0">
+                <div class="item content-center text-center">
+                    <button type="button" class="text-black font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 cursor-text background-features ">SOLID FEATURES</button>
+                    <h1 class="mx-auto mb-4 font-bold text-black dark:text-white md:w-4/5 xl:w-1/2 xl:text-sectiontitle3 text-4.5xl">Core Features of Solid</h1>
+                    <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. <br> Donec vitae tortor lacus. Phasellus aliquam ante in maximus.</p>
+                </div>
+            </div>
+            <div class="container-2 mt-12.5 grid md:grid-cols-1 lg:grid-cols-2 lg:mt-15 xl:grid-cols-3 xl:mt-20 xl:gap-9 ">
+                <div class="item rounded-lg border border-white bg-white p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl p-9">
+                    <img class="bg-blue-600 h-16 w-16" src="../images/image copy.png" alt="">
+                    <h3 class="mb-5 mt-7 text-black text-2.5xl font-semibold">Sanity Blog and Docs</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
+                </div>
+                <div class="item rounded-lg border border-white bg-white p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl p-9">
+                    <img class="bg-blue-600 h-16 w-16" src="../images/image copy 2.png" alt="">
+                    <h3 class="mb-5 mt-7 text-black text-2.5xl font-semibold">Sanity Blog and Docs</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
+                </div>
+                <div class="item rounded-lg border border-white bg-white p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl p-9">
+                    <img class="bg-blue-600 h-16 w-16" src="../images/image copy 3.png" alt="">
+                    <h3 class="mb-5 mt-7 text-black text-2.5xl font-semibold">Sanity Blog and Docs</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
+                </div>
+                <div class="item rounded-lg border border-white bg-white p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl p-9">
+                    <img class="bg-blue-600 h-16 w-16" src="../images/image copy 4.png" alt="">
+                    <h3 class="mb-5 mt-7 text-black text-2.5xl font-semibold">Sanity Blog and Docs</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
+                </div>
+                <div class="item rounded-lg border border-white bg-white p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl p-9">
+                    <img class="bg-blue-600 h-16 w-16" src="../images/image copy 5.png" alt="">
+                    <h3 class="mb-5 mt-7 text-black text-2.5xl font-semibold">Sanity Blog and Docs</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
+                </div>
+                <div class="item rounded-lg border border-white bg-white p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl p-9">
+                    <img class="bg-blue-600 h-16 w-16" src="../images/image copy 6.png" alt="">
+                    <h3 class="mb-5 mt-7 text-black text-2.5xl font-semibold">Sanity Blog and Docs</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="complete pb-28">
+            <div class="max-width mx-auto px-4 md:px-8 xl:px-0">
+                <div class="container flex lg:gap-32 ">
+                    <div class="item-left md:w-1/2">
+                        <img src="../images/complete.png" alt="">
+                    </div>
+                    <div class="item-right md:w-1/2">
+                        <h3 class="font-medium uppercase text-black dark:text-white"> 
+                            <span class="mb-4 mr-4 inline-flex rounded-full bg-meta px-4 py-1 text-metatitle uppercase text-white bg-emerald-300">New</span>SaaS Boilerplate for Next.js</h3>
+    
+                        <h1 class="text-44xl font-bold text-black mb-6">A Complete Solution for<span class="relative ml-2.5 inline-block before:absolute before:bottom-4 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">SaaS Startup</span></h1>
+    
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies lacus non fermentum ultrices. Fusce consectetur le.</p>
+                        <div class="text flex items-center mt-1.875">
+                            <div class="text-child h-14 w-14 flex items-center justify-center border border-stroke dark:border-strokedark dark:bg-blacksection rounded-[50%]">
+                                <p class=" font-semibold text-xl text-black dark:text-white">01</p>
+                            </div>
+                            <div class="child-1 w-3/4 ml-6">
+                                <h4 class="mb-1 text-xl text-black font-inherit">Mailchimp for Newsletter Emails + SMTP for Transactional Emails</h4>
+                                <h5>Ut ultricies lacus non fermentum ultrices.</h5>
+                            </div>
+                        </div>
+                        <div class="text flex items-center mt-1.875">
+                            <div class="text-child h-14 w-14 flex items-center justify-center border border-stroke dark:border-strokedark dark:bg-blacksection rounded-[50%]">
+                                <p class="font-semibold text-xl text-black dark:text-white">02</p>
+                            </div>
+                            <div class="child-1 w-3/4 ml-6">
+                                <h4 class="mb-1 text-xl text-black font-inherit">Algolia Integration for Site Search</h4>
+                                <h5>consectetur adipiscing elit fermentum ultricies.</h5>
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+        </section>
+
+        <section class="packed">
+            <div class="packed-item mx-auto max-width overflow-hidden px-4 md:px-8 2xl:px-0">
+                <div class="container flex gap-32 items-center">
+                    <div class="item-left w-1/2">
+                        <h5 class="font-medium text-black tracking-wide">Launch Your SaaS Fast</h5>
+                        <h1 class="text-4.5xl text-black font-bold mb-6">Packed with All Essential 
+                            <span class="relative ml-2.5 inline-block before:absolute before:bottom-4 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg2 dark:before:bg-titlebgdark">Integrations</span></h1>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies lacus non fermentum ultrices. Fusce consectetur le.</p>
+                        
+                        <div class="item-child text-black inline-flex gap-10 mt-6">
+                            <div class="item-child1 ">
+                                <a href="#">Know More</a>
+                            </div>
+                            <div class="item-arrow ">
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-right w-1/2">
+                        <img src="../images/over-view.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+    <!-- Flowbite -->
     <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
   </body>
 </html>
