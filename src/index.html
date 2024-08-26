@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS -->
     <link rel="stylesheet" href="./output.css" />
   </head>
   <body>
@@ -75,11 +84,11 @@
       </div>
     </section>
     <!-- banner sign up -->
-    <section class="sing-up mt-32">
+    <section class="sign-up mt-32">
       <div
-        class="container mx-auto flex bg-gradient-to-t from-[#F8F9FF] to-[#DEE7FF]"
+        class="container mx-auto flex bg-gradient-to-t from-[#F8F9FF] to-[#DEE7FF] p-16 rounded-lg"
       >
-        <div class="sign__left w-full">
+        <div class="sign__left mt-24">
           <h2 class="text-4xl font-bold">
             Join With Us Today & Increase <br />
             Your Productivity
@@ -90,15 +99,70 @@
             Donec vitae tortor lacus. Phasellus aliquam ante in maximus.
           </p>
         </div>
-        <div class="sign_right w-full">
-          <img class="" src="./images/image.webp" alt="" />
+        <div class="sign_right flex">
+          <img class="w-full h-auto" src="./images/image.webp" alt="" />
         </div>
-        <div>
-          <button>Sign up free</button>
+        <div class="ml-32">
+          <button
+            class="mt-40 w-full text-white px-8 py-5 bg-[#1a1a2f] rounded-full main"
+          >
+            Sign up free
+            <i class="fa fa-arrow-right change text-white change"></i>
+          </button>
         </div>
       </div>
     </section>
+    <!-- FAQS -->
+    <section class="faqs mt-20">
+      <div class="container mx-auto flex">
+        <div class="faqs_left w-3/6">
+          <div class="content_left w-full mt-32 ml-32">
+            <p class="font-medium">OUR FAQS</p>
+            <h2 class="text-5xl font-bold mt-2 mb-14">
+              Frequently Asked <br />
+              Questions
+            </h2>
+            <div>
+              <a href=""> Know More <i class="fa fa-arrow-right ml-2"></i></a>
+            </div>
+          </div>
+        </div>
 
+        <div class="faqs__righ w-3/6">
+          <div class="content_right w-full p-16">
+            <div class="item border-b-2 px-16 py-10 text-xl">
+              Lorem ipsum dolor sit amet, consectetur
+              <a href=""><i class="fa fa-plus ml-32"></i></a>
+              <p class="border-t mt-5 py-4 hidden">
+                We provide digital experience services to startups and small
+                businesses. We help our clients succeed by creating brand
+                identities, digital experiences.
+              </p>
+            </div>
+
+            <div class="item px-16 py-10 border-b-2 text-xl">
+              Lorem ipsum dolor sit amet, consectetur
+              <a href=""><i class="fa fa-plus ml-32"></i></a>
+              <p class="border-t mt-5 py-4 hidden">
+                We provide digital experience services to startups and small
+                businesses. We help our clients succeed by creating brand
+                identities, digital experiences.
+              </p>
+            </div>
+
+            <div class="item px-16 py-10 border-b-2 text-xl">
+              Lorem ipsum dolor sit amet, consectetur
+              <a href=""><i class="fa fa-plus ml-32"></i></a>
+              <p class="border-t mt-5 py-4 hidden">
+                We provide digital experience services to startups and small
+                businesses. We help our clients succeed by creating brand
+                identities, digital experiences.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!--  -->
     <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
   </body>
