@@ -1095,6 +1095,10 @@ input:checked + .toggle-bg {
   inset: 0px;
 }
 
+.-top-16 {
+  top: -4rem;
+}
+
 .bottom-0 {
   bottom: 0px;
 }
@@ -1117,6 +1121,10 @@ input:checked + .toggle-bg {
 
 .top-0 {
   top: 0px;
+}
+
+.top-105px {
+  top: -105px;
 }
 
 .z-10 {
@@ -1149,9 +1157,9 @@ input:checked + .toggle-bg {
   margin-right: 1rem;
 }
 
-.mx-7 {
-  margin-left: 1.75rem;
-  margin-right: 1.75rem;
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .mx-auto {
@@ -1167,8 +1175,16 @@ input:checked + .toggle-bg {
   margin-bottom: 2.75rem;
 }
 
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mb-2\.5 {
+  margin-bottom: 0.625rem;
 }
 
 .mb-4 {
@@ -1183,6 +1199,10 @@ input:checked + .toggle-bg {
   margin-bottom: 1.5rem;
 }
 
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
+
 .me-2 {
   margin-inline-end: 0.5rem;
 }
@@ -1193,6 +1213,10 @@ input:checked + .toggle-bg {
 
 .ml-6 {
   margin-left: 1.5rem;
+}
+
+.ml-auto {
+  margin-left: auto;
 }
 
 .mr-1 {
@@ -1227,12 +1251,12 @@ input:checked + .toggle-bg {
   margin-top: 1rem;
 }
 
-.mt-7 {
-  margin-top: 1.75rem;
-}
-
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
 }
 
 .block {
@@ -1307,6 +1331,10 @@ input:checked + .toggle-bg {
   height: 2.25rem;
 }
 
+.h-\[350px\] {
+  height: 350px;
+}
+
 .h-full {
   height: 100%;
 }
@@ -1317,6 +1345,10 @@ input:checked + .toggle-bg {
 
 .w-10 {
   width: 2.5rem;
+}
+
+.w-11\/12 {
+  width: 91.666667%;
 }
 
 .w-14 {
@@ -1351,8 +1383,32 @@ input:checked + .toggle-bg {
   width: 16rem;
 }
 
+.w-\[90\%\] {
+  width: 90%;
+}
+
 .w-full {
   width: 100%;
+}
+
+.max-w-3 {
+  max-width: 0.75rem;
+}
+
+.max-w-3\.5xl {
+  max-width: 1154px;
+}
+
+.max-w-3xl {
+  max-width: 1390px;
+}
+
+.max-w-\[550px\] {
+  max-width: 550px;
+}
+
+.max-w-screen-2xl {
+  max-width: 1536px;
 }
 
 .flex-1 {
@@ -1473,20 +1529,28 @@ input:checked + .toggle-bg {
   justify-content: space-between;
 }
 
-.gap-24 {
-  gap: 6rem;
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .gap-32 {
   gap: 8rem;
 }
 
-.gap-2 {
-  gap: 0.5rem;
+.gap-4 {
+  gap: 1rem;
 }
 
-.gap-10 {
-  gap: 2.5rem;
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .gap-y-32 {
@@ -1530,8 +1594,16 @@ input:checked + .toggle-bg {
   border-radius: 0.25rem;
 }
 
+.rounded-\[10px\] {
+  border-radius: 10px;
+}
+
 .rounded-\[50\%\] {
   border-radius: 50%;
+}
+
+.rounded-\[50px\] {
+  border-radius: 50px;
 }
 
 .rounded-full {
@@ -1573,6 +1645,10 @@ input:checked + .toggle-bg {
 .border-x-0 {
   border-left-width: 0px;
   border-right-width: 0px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
 }
 
 .border-blue-600 {
@@ -1658,6 +1734,20 @@ input:checked + .toggle-bg {
   background-color: rgb(255 255 255 / 0.5);
 }
 
+.bg-gradient-to-t {
+  background-image: linear-gradient(to top, var(--tw-gradient-stops));
+}
+
+.from-\[\#F8F9FF\] {
+  --tw-gradient-from: #F8F9FF var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(248 249 255 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-\[\#DEE7FF\] {
+  --tw-gradient-to: #DEE7FF var(--tw-gradient-to-position);
+}
+
 .p-1 {
   padding: 0.25rem;
 }
@@ -1676,6 +1766,11 @@ input:checked + .toggle-bg {
 
 .p-9 {
   padding: 2.25rem;
+}
+
+.px-13 {
+  padding-left: 3.375rem;
+  padding-right: 3.375rem;
 }
 
 .px-16 {
@@ -1708,11 +1803,6 @@ input:checked + .toggle-bg {
   padding-right: 1.75rem;
 }
 
-.px-9 {
-  padding-left: 2.25rem;
-  padding-right: 2.25rem;
-}
-
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -1738,14 +1828,19 @@ input:checked + .toggle-bg {
   padding-bottom: 5rem;
 }
 
+.py-22\.5 {
+  padding-top: 5.625rem;
+  padding-bottom: 5.625rem;
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .py-8 {
@@ -1781,8 +1876,14 @@ input:checked + .toggle-bg {
   font-size: 26px;
 }
 
+.text-3\.5 {
+  font-size: 40px;
+  line-height: 52px;
+}
+
 .text-4\.5xl {
   font-size: 44px;
+  line-height: 52px;
 }
 
 .text-44xl {
@@ -1792,6 +1893,11 @@ input:checked + .toggle-bg {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .text-lg {
@@ -2029,9 +2135,73 @@ main .packed .item-child:hover {
   color: blue;
 }
 
+main .trusted .container{
+  animation: animationTrust 1s ease-out ;
+  position: relative;
+  transition: 0.1;
+}
+
+@keyframes animationTrust{
+  from{
+    top: -25px;
+    transition: 0.1;
+  }
+
+  to{
+    top: 0;
+    transition: 1;
+  }
+}
+
+main .soild .soild-text{
+  animation: animationSoild 0.5s ease-out;
+  position: relative;
+  transition: 0.1;
+}
+
+@keyframes animationSoild{
+  from{
+    top: -25px;
+    transition: 0.1;
+  }
+
+  to{
+    top: 0;
+    transition: 1;
+  }
+}
+
+main .soild .soild-text{
+  animation: animationFeature 2s ease-out;
+  position: relative;
+  transition: 0.1;
+}
+
+@keyframes animationFeature{
+  from{
+    top: -25px;
+    transition: 0.1;
+  }
+
+  to{
+    top: 0;
+    transition: 1;
+  }
+}
+
 .before\:absolute::before {
   content: var(--tw-content);
   position: absolute;
+}
+
+.before\:bottom-0::before {
+  content: var(--tw-content);
+  bottom: 0px;
+}
+
+.before\:bottom-2::before {
+  content: var(--tw-content);
+  bottom: 0.5rem;
 }
 
 .before\:bottom-3\.5::before {
@@ -2049,6 +2219,11 @@ main .packed .item-child:hover {
   left: 0px;
 }
 
+.before\:h-1::before {
+  content: var(--tw-content);
+  height: 0.25rem;
+}
+
 .before\:h-3::before {
   content: var(--tw-content);
   height: 0.75rem;
@@ -2057,6 +2232,20 @@ main .packed .item-child:hover {
 .before\:w-full::before {
   content: var(--tw-content);
   width: 100%;
+}
+
+.before\:rounded-tl-\[4px\]::before {
+  content: var(--tw-content);
+  border-top-left-radius: 4px;
+}
+
+.before\:rounded-tr-\[4px\]::before {
+  content: var(--tw-content);
+  border-top-right-radius: 4px;
+}
+
+.last\:border-0:last-child {
+  border-width: 0px;
 }
 
 .hover\:border-gray-300:hover {
@@ -2215,6 +2404,20 @@ main .packed .item-child:hover {
   background-color: rgb(17 24 39 / 0.8);
 }
 
+.dark\:bg-gradient-to-t:is(.dark *) {
+  background-image: linear-gradient(to top, var(--tw-gradient-stops));
+}
+
+.dark\:from-transparent:is(.dark *) {
+  --tw-gradient-from: transparent var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.dark\:to-transparent:is(.dark *) {
+  --tw-gradient-to: transparent var(--tw-gradient-to-position);
+}
+
 .dark\:text-blue-500:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(63 131 248 / var(--tw-text-opacity));
@@ -2303,6 +2506,10 @@ main .packed .item-child:hover {
     margin-top: 0px;
   }
 
+  .md\:block {
+    display: block;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -2333,6 +2540,14 @@ main .packed .item-child:hover {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
+  .md\:items-center {
+    align-items: center;
   }
 
   .md\:justify-center {
@@ -2366,6 +2581,16 @@ main .packed .item-child:hover {
 
   .md\:p-0 {
     padding: 0px;
+  }
+
+  .md\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .md\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
 
   .md\:px-8 {
@@ -2412,16 +2637,53 @@ main .packed .item-child:hover {
 }
 
 @media (min-width: 1024px) {
+  .lg\:w-11\/12 {
+    width: 91.666667%;
+  }
+
+  .lg\:w-2\/3 {
+    width: 66.666667%;
+  }
+
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:gap-20 {
+    gap: 5rem;
   }
 
   .lg\:gap-32 {
     gap: 8rem;
   }
+
+  .lg\:gap-33 {
+    gap: 10.625rem;
+  }
+
+  .lg\:gap-8 {
+    gap: 2rem;
+  }
+
+  .lg\:py-22\.5 {
+    padding-top: 5.625rem;
+    padding-bottom: 5.625rem;
+  }
+
+  .lg\:pb-24 {
+    padding-bottom: 6rem;
+  }
 }
 
 @media (min-width: 1280px) {
+  .xl\:mb-20 {
+    margin-bottom: 5rem;
+  }
+
+  .xl\:mt-0 {
+    margin-top: 0px;
+  }
+
   .xl\:mt-20 {
     margin-top: 5rem;
   }
@@ -2434,6 +2696,10 @@ main .packed .item-child:hover {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .xl\:gap-12 {
+    gap: 3rem;
+  }
+
   .xl\:gap-9 {
     gap: 2.25rem;
   }
@@ -2442,12 +2708,22 @@ main .packed .item-child:hover {
     padding-left: 0px;
     padding-right: 0px;
   }
+
+  .xl\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
 }
 
 @media (min-width: 1536px) {
   .\32xl\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .\32xl\:py-7 {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
   }
 }
 
@@ -2459,6 +2735,7 @@ main .packed .item-child:hover {
 .rtl\:space-x-reverse:where([dir="rtl"], [dir="rtl"] *) > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 1;
 }
+
 
 
 

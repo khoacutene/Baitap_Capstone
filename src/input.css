@@ -74,6 +74,55 @@ main .packed .item-child:hover {
     color: blue;
 }
 
+main .trusted .container{
+    animation: animationTrust 1s ease-out ;
+    position: relative;
+    transition: 0.1;
+}
+@keyframes animationTrust{
+    from{
+        top: -25px;
+        transition: 0.1;
+    }
+    to{
+        top: 0;
+        transition: 1;
+    }
+}
+
+main .soild .soild-text{
+    animation: animationSoild 0.5s ease-out;
+    position: relative;
+    transition: 0.1;
+}
+@keyframes animationSoild{
+    from{
+        top: -25px;
+        transition: 0.1;
+    }
+    to{
+        top: 0;
+        transition: 1;
+    }
+}
+
+main .soild .soild-text{
+    animation: animationFeature 2s ease-out;
+    position: relative;
+    transition: 0.1;
+}
+@keyframes animationFeature{
+    from{
+        top: -25px;
+        transition: 0.1;
+    }
+    to{
+        top: 0;
+        transition: 1;
+    }
+}
+
+
 
 
 
