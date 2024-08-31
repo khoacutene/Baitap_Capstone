@@ -2,128 +2,148 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    color: rgb(117 118 147);
-    font-style: normal;
-    font-family: "Inter", sans-serif;
+body {
+  color: rgb(117 118 147);
+  font-style: normal;
+  font-family: "Inter", sans-serif;
 }
 
-.icon-header{
-    -webkit-appearance: button;
-    background-color: transparent;
-    background-image: none;
+.icon-header {
+  -webkit-appearance: button;
+  background-color: transparent;
+  background-image: none;
 }
 
 .before\:bg-titlebg:before {
-    content: var(--tw-content);
-    --tw-bg-opacity: 0.8;
-    background-color: rgb(173 255 248 / var(--tw-bg-opacity));
+  content: var(--tw-content);
+  --tw-bg-opacity: 0.8;
+  background-color: rgb(173 255 248 / var(--tw-bg-opacity));
 }
 
 .before\:bg-titlebg2:before {
-    content: var(--tw-content);
-    --tw-bg-opacity: 0.8;
-    background-color: rgb(255 234 194 / var(--tw-bg-opacity));
+  content: var(--tw-content);
+  --tw-bg-opacity: 0.8;
+  background-color: rgb(255 234 194 / var(--tw-bg-opacity));
 }
 
-main .img-right  .banner-left{
-    left: -45px;
-    top: 0;
+main .img-right .banner-left {
+  left: -45px;
+  top: 0;
 }
 
-main .img-right .star-1{
-    right: 116px;
-    top: 371px;
+main .img-right .star-1 {
+  right: 116px;
+  top: 371px;
 }
 
-main .img-right .star-2{
-    right: 89px;
-    top: 386px;
+main .img-right .star-2 {
+  right: 89px;
+  top: 386px;
 }
 
-main .logo img{  
-    animation: animationText 1s ease-out ;
-    position: relative;
+main .logo img {
+  animation: animationText 1s ease-out;
+  position: relative;
+  transition: 0.1;
+}
+
+@keyframes animationText {
+  from {
+    top: -25px;
     transition: 0.1;
+  }
+  to {
+    top: 0;
+    transition: 1;
+  }
 }
 
-@keyframes animationText{
-    from{
-        top: -25px;
-        transition: 0.1;
-    }
-    to{
-        top: 0;
-        transition: 1;
-    }
+main .text-features button {
+  background-color: rgb(237 245 255);
 }
 
-main .text-features button{
-    background-color: rgb(237 245 255);
+main .max-width {
+  max-width: 1280px;
 }
 
-main .max-width{
-    max-width: 1280px;
-}
-
-main .packed .item-child{
-    transition: all 0s;
+main .packed .item-child {
+  transition: all 0s;
 }
 
 main .packed .item-child:hover {
-    color: blue;
+  color: blue;
 }
 
-main .trusted .container{
-    animation: animationTrust 1s ease-out ;
-    position: relative;
+main .trusted .container {
+  animation: animationTrust 1s ease-out;
+  position: relative;
+  transition: 0.1;
+}
+@keyframes animationTrust {
+  from {
+    top: -25px;
     transition: 0.1;
-}
-@keyframes animationTrust{
-    from{
-        top: -25px;
-        transition: 0.1;
-    }
-    to{
-        top: 0;
-        transition: 1;
-    }
+  }
+  to {
+    top: 0;
+    transition: 1;
+  }
 }
 
-main .soild .soild-text{
-    animation: animationSoild 0.5s ease-out;
-    position: relative;
+main .soild .soild-text {
+  animation: animationSoild 0.5s ease-out;
+  position: relative;
+  transition: 0.1;
+}
+@keyframes animationSoild {
+  from {
+    top: -25px;
     transition: 0.1;
-}
-@keyframes animationSoild{
-    from{
-        top: -25px;
-        transition: 0.1;
-    }
-    to{
-        top: 0;
-        transition: 1;
-    }
+  }
+  to {
+    top: 0;
+    transition: 1;
+  }
 }
 
-main .soild .soild-text{
-    animation: animationFeature 2s ease-out;
-    position: relative;
+main .soild .soild-text {
+  animation: animationFeature 2s ease-out;
+  position: relative;
+  transition: 0.1;
+}
+@keyframes animationFeature {
+  from {
+    top: -25px;
     transition: 0.1;
-}
-@keyframes animationFeature{
-    from{
-        top: -25px;
-        transition: 0.1;
-    }
-    to{
-        top: 0;
-        transition: 1;
-    }
+  }
+  to {
+    top: 0;
+    transition: 1;
+  }
 }
 
+/* son huynh */
+.change {
+  position: relative;
+  top: 1px;
+  left: 10px;
+}
 
+.item_position {
+  position: relative;
+  top: 0;
+  left: 20px;
+}
+.icon__letter {
+  position: relative;
+  top: 13px;
+  left: 230px;
+  font-size: 20px;
+}
 
-
-
-
+.box__pricing {
+  position: relative;
+  top: -148px;
+  left: 200px;
+  /* transform: rotateY(80deg); */
+}

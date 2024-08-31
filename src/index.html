@@ -6,41 +6,67 @@
     <title>Capstone</title>
 
     <!-- Font Google -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
     />
 
     <!-- Link icon -->
-    <link rel="stylesheet" href="https://glyphsearch.com/bower_components/font-awesome/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://glyphsearch.com/bower_components/font-awesome/css/all.min.css"
+    />
 
+    <!-- slick js -->
+    <link rel="stylesheet" href="./../slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="../slick-1.8.1/slick/slick-theme.css" />
     <!-- Input -->
-     <link rel="stylesheet" href="./input.css">
+    <link rel="stylesheet" href="./input.css" />
 
     <!-- Output -->
     <link rel="stylesheet" href="./output.css" />
   </head>
   <body>
-    <header class=" w-full ">
-      <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-gray-200 dark:border-gray-600 py-2 px-4 md:px-8 2xl:py-7">
-        <div class=" mx-6">
-          <div class=" flex flex-wrap items-center justify-between ml-auto mt-7 gap-6 xl:mt-0">
-            <a href="https://flowbite.com/"class="flex items-center space-x-1 rtl:space-x-reverse">
+    <header class="w-full">
+      <nav
+        class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-gray-200 dark:border-gray-600 py-2 px-4 md:px-8 2xl:py-7"
+      >
+        <div class="mx-6">
+          <div
+            class="flex flex-wrap items-center justify-between ml-auto mt-7 gap-6 xl:mt-0"
+          >
+            <a
+              href="https://flowbite.com/"
+              class="flex items-center space-x-1 rtl:space-x-reverse"
+            >
               <img src="../images/image.png" class="h-8" alt="" />
             </a>
-            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse items-center">
-              
+            <div
+              class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse items-center"
+            >
               <div class="icon-header">
-                  <i class="fa fa-search  mx-4 cursor-pointer "></i>
-                  <i class="fa fa-moon  mx-4 cursor-pointer "></i>
+                <i class="fa fa-search mx-4 cursor-pointer"></i>
+                <i class="fa fa-moon mx-4 cursor-pointer"></i>
               </div>
-              
-              <button type="button" class="py-3 px-7  text-sm font-medium text-gray-900 focus:outline-none bg-white  hover:text-blue-700 focus:z-10 ">Sign In</button>
-  
-              <a class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium  text-sm  text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 px-7 py-3 rounded-[50px]" href=""> Sign Up</a>
-  
+
               <button
-              
+                type="button"
+                class="py-3 px-7 text-sm font-medium text-gray-900 focus:outline-none bg-white hover:text-blue-700 focus:z-10"
+              >
+                Sign In
+              </button>
+
+              <a
+                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 px-7 py-3 rounded-[50px]"
+                href=""
+              >
+                Sign Up</a
+              >
+
+              <button
                 data-collapse-toggle="navbar-sticky"
                 type="button"
                 class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -101,32 +127,81 @@
                     >Docs</a
                   >
                 </li>
-                <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent hover:text-pages  hover:text-primary">Pages <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-                </svg></button>
-                          <!-- Dropdown menu -->
-                          <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-                              <ul class="py-2 text-sm text-gray-700 dark:text-gray-400 dropdown" aria-labelledby="dropdownLargeButton">
-                                <li>
-                                  <a href="#" class="block px-4 py-2 md:hover:text-blue-700  dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent  hover:text-primary">Blog Grid</a>
-                                </li>
-                                <li>
-                                  <a href="#" class="block px-4 py-2  md:hover:text-blue-700  dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent  hover:text-primary">Sign In</a>
-                                </li>
-                                <li>
-                                  <a href="#" class="block px-4 py-2  md:hover:text-blue-700  dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent  hover:text-primary">Sign Up</a>
-                                </li>
-                                <li>
-                                  <a href="#" class="block px-4 py-2  md:hover:text-blue-700  dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent  hover:text-primary">Docs</a>
-                                </li>
-                                <li>
-                                  <a href="#" class="block px-4 py-2  md:hover:text-blue-700  dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent  hover:text-primary">Support</a>
-                                </li>
-                                <li>
-                                  <a href="#" class="block px-4 py-2  md:hover:text-blue-700  dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent  hover:text-primary">404</a>
-                                </li>
-                              </ul>
-                          </div>
+                <button
+                  id="dropdownNavbarLink"
+                  data-dropdown-toggle="dropdownNavbar"
+                  class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent hover:text-pages hover:text-primary"
+                >
+                  Pages
+                  <svg
+                    class="w-2.5 h-2.5 ms-2.5"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 10 6"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="m1 1 4 4 4-4"
+                    />
+                  </svg>
+                </button>
+                <!-- Dropdown menu -->
+                <div
+                  id="dropdownNavbar"
+                  class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+                >
+                  <ul
+                    class="py-2 text-sm text-gray-700 dark:text-gray-400 dropdown"
+                    aria-labelledby="dropdownLargeButton"
+                  >
+                    <li>
+                      <a
+                        href="#"
+                        class="block px-4 py-2 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent hover:text-primary"
+                        >Blog Grid</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="block px-4 py-2 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent hover:text-primary"
+                        >Sign In</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="block px-4 py-2 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent hover:text-primary"
+                        >Sign Up</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="block px-4 py-2 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent hover:text-primary"
+                        >Docs</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="block px-4 py-2 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent hover:text-primary"
+                        >Support</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="block px-4 py-2 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent hover:text-primary"
+                        >404</a
+                      >
+                    </li>
+                  </ul>
+                </div>
                 <li>
                   <a
                     href="#"
@@ -142,263 +217,1173 @@
     </header>
 
     <main>
-        <div class="banner overflow-hidden pb-20 pt-35 md:pt-40 ">
-            <div class="container mx-auto px-4 md:px-3 2xl:px-0 max-w-screen-2xl ">
-                <div class="flex gap-y-32">
-                    <div class="text-left md:w-1/2 px-16">
-                        <h4 class=" mt-16 text-black text-lg font-medium">🔥 Solid - A Complete SaaS Starter Template for SaaS</h4>
-    
-                        <h1 class="leading-snug text-5xl mr-8 font-bold tracking-wide text-black py-8">Robust SaaS Boilerplate and Starter for <span class="relative ml-2.5 inline-block before:absolute before:bottom-3.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">Next.js</span></h1>
-    
-                        <p class="mb-11">Packed with all the key integrations you need for swift SaaS startup launch, including - Authentication, Database, Sanity Blog, Essential UI Components, Business Pages and More. Built-winth - Next.js, React 18 and TypeScript.</p>
-    
-                        <button type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium px-7 py-3 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 rounded-full text-sm">Get Started</button>
-    
-                    </div>
-                    <div class="img-right relative w-1/2 inset-0  ">
-                        <div class="item-2 relative ">
-                            <img class="banner-left absolute" src="../images/banner-left.png" alt="">
-                         
-                        </div>
-                        <div class="item-1">
-                            <img class="h-full absolute dark:hidden inset-0" src="../images/banner.png" alt=""> 
-                            <img class="star-1 absolute z-10" src="../images/star 1.png" alt="">
-                            <img class="star-2 absolute z-10" src="../images/star 2.png" alt="">
-                        </div>  
-                        
-                    </div>
-                </div>
+      <div class="banner overflow-hidden pb-20 pt-35 md:pt-40">
+        <div class="container mx-auto px-4 md:px-3 2xl:px-0 max-w-screen-2xl">
+          <div class="flex gap-y-32">
+            <div class="text-left md:w-1/2 px-16">
+              <h4 class="mt-16 text-black text-lg font-medium">
+                🔥 Solid - A Complete SaaS Starter Template for SaaS
+              </h4>
+
+              <h1
+                class="leading-snug text-5xl mr-8 font-bold tracking-wide text-black py-8"
+              >
+                Robust SaaS Boilerplate and Starter for
+                <span
+                  class="relative ml-2.5 inline-block before:absolute before:bottom-3.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark"
+                  >Next.js</span
+                >
+              </h1>
+
+              <p class="mb-11">
+                Packed with all the key integrations you need for swift SaaS
+                startup launch, including - Authentication, Database, Sanity
+                Blog, Essential UI Components, Business Pages and More.
+                Built-winth - Next.js, React 18 and TypeScript.
+              </p>
+
+              <button
+                type="button"
+                class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium px-7 py-3 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 rounded-full text-sm"
+              >
+                Get Started
+              </button>
             </div>
-        </div>
-
-        <section class="logo border border-x-0 border-y-stroke bg-alabaster py-11 dark:border-y-strokedark dark:bg-black">
-            <div class="mx-auto px-4 md:px-8 2xl:px-0">
-                <div class="grid grid-cols-3 items-center justify-center gap-7.5 md:grid-cols-6 lg:gap-12.5 xl:gap-29">
-
-                    <a href="#" class="flex items-center md:justify-center animate_top relative ">
-                      <img class=" opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden h-7 hover:text-gray-900 dark:hover:text-white " fill="none" src="../images/logitech.png" alt="">
-                    </a>
-    
-                    <a href="#" class="flex items-center md:justify-center">
-                      <img class=" opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden h-7 hover:text-gray-900 dark:hover:text-white" fill="none"  src="../images/dropcam.png" alt="Dropcam">
-                    </a>
-    
-                    <a href="#" class="flex items-center md:justify-center">
-                        <img class="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden h-8 hover:text-gray-900 dark:hover:text-white" fill="none" src="../images/amd.png" alt="AMD">
-                    </a>
-    
-                    <a href="#" class="flex items-center md:justify-center">
-                      <img class="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden h-8 hover:text-gray-900 dark:hover:text-white" fill="none" src="../images/logo-nike.png" alt="Logo-Nike">
-                    </a>
-    
-                    <a href="#" class="flex items-center md:justify-center">
-                        <img class="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden h-8 hover:text-gray-900 dark:hover:text-white" fill="none" src="../images/mandiri.png" alt="Mandiri">
-                    </a>
-    
-                    <a href="#" class="flex items-center md:justify-center">
-                      <img class="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden h-8 hover:text-gray-900 dark:hover:text-white" fill="none" src="../images/amazon.png" alt="Amazon">
-                    </a>
-    
-                  </div>
-            </div>
-        </section>
-
-        <section class="text-features py-20 lg:py-25 xl:py-30 mx-20">
-            <div class="container mx-auto  md:px-8 xl:px-0">
-                <div class="item content-center text-center">
-                    <button type="button" class="text-black font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 cursor-text background-features ">SOLID FEATURES</button>
-                    <h1 class="mx-auto mb-4 font-bold text-black dark:text-white md:w-4/5 xl:w-1/2 xl:text-sectiontitle3 text-4.5xl">Core Features of Solid</h1>
-                    <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. <br> Donec vitae tortor lacus. Phasellus aliquam ante in maximus.</p>
-                </div>
-            </div>
-            <div class="container-2 mt-12.5 grid md:grid-cols-1 lg:grid-cols-2 lg:mt-15 xl:grid-cols-3 xl:mt-20 xl:gap-9 ">
-                <div class="item rounded-lg border border-white bg-white p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl p-9">
-                    <img class="bg-blue-600 h-16 w-16" src="../images/image copy.png" alt="">
-                    <h3 class="mb-5 mt-7 text-black text-2.5xl font-semibold">Sanity Blog and Docs</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
-                </div>
-                <div class="item rounded-lg border border-white bg-white p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl p-9">
-                    <img class="bg-blue-600 h-16 w-16" src="../images/image copy 2.png" alt="">
-                    <h3 class="mb-5 mt-7 text-black text-2.5xl font-semibold">Sanity Blog and Docs</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
-                </div>
-                <div class="item rounded-lg border border-white bg-white p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl p-9">
-                    <img class="bg-blue-600 h-16 w-16" src="../images/image copy 3.png" alt="">
-                    <h3 class="mb-5 mt-7 text-black text-2.5xl font-semibold">Sanity Blog and Docs</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
-                </div>
-                <div class="item rounded-lg border border-white bg-white p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl p-9">
-                    <img class="bg-blue-600 h-16 w-16" src="../images/image copy 4.png" alt="">
-                    <h3 class="mb-5 mt-7 text-black text-2.5xl font-semibold">Sanity Blog and Docs</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
-                </div>
-                <div class="item rounded-lg border border-white bg-white p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl p-9">
-                    <img class="bg-blue-600 h-16 w-16" src="../images/image copy 5.png" alt="">
-                    <h3 class="mb-5 mt-7 text-black text-2.5xl font-semibold">Sanity Blog and Docs</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
-                </div>
-                <div class="item rounded-lg border border-white bg-white p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl p-9">
-                    <img class="bg-blue-600 h-16 w-16" src="../images/image copy 6.png" alt="">
-                    <h3 class="mb-5 mt-7 text-black text-2.5xl font-semibold">Sanity Blog and Docs</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
-                </div>
-                
-            </div>
-        </section>
-
-        <section class="complete pb-28">
-            <div class="max-width mx-auto px-4 md:px-8 xl:px-0">
-                <div class="container flex lg:gap-32 ">
-                    <div class="item-left md:w-1/2">
-                        <img src="../images/complete.png" alt="">
-                    </div>
-                    <div class="item-right md:w-1/2">
-                        <h3 class="font-medium uppercase text-black dark:text-white"> 
-                            <span class="mb-4 mr-4 inline-flex rounded-full bg-meta px-4 py-1 text-metatitle uppercase text-white bg-emerald-300">New</span>SaaS Boilerplate for Next.js</h3>
-    
-                        <h1 class="text-44xl font-bold text-black mb-6">A Complete Solution for<span class="relative ml-2.5 inline-block before:absolute before:bottom-4 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">SaaS Startup</span></h1>
-    
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies lacus non fermentum ultrices. Fusce consectetur le.</p>
-                        <div class="text flex items-center mt-1.875">
-                            <div class="text-child h-14 w-14 flex items-center justify-center border border-stroke dark:border-strokedark dark:bg-blacksection rounded-[50%]">
-                                <p class=" font-semibold text-xl text-black dark:text-white">01</p>
-                            </div>
-                            <div class="child-1 w-3/4 ml-6">
-                                <h4 class="mb-1 text-xl text-black font-inherit">Mailchimp for Newsletter Emails + SMTP for Transactional Emails</h4>
-                                <h5>Ut ultricies lacus non fermentum ultrices.</h5>
-                            </div>
-                        </div>
-                        <div class="text flex items-center mt-1.875">
-                            <div class="text-child h-14 w-14 flex items-center justify-center border border-stroke dark:border-strokedark dark:bg-blacksection rounded-[50%]">
-                                <p class="font-semibold text-xl text-black dark:text-white">02</p>
-                            </div>
-                            <div class="child-1 w-3/4 ml-6">
-                                <h4 class="mb-1 text-xl text-black font-inherit">Algolia Integration for Site Search</h4>
-                                <h5>consectetur adipiscing elit fermentum ultricies.</h5>
-                            </div>
-                        </div>
-                    </div>                
-                </div>
-            </div>
-        </section>
-
-        <section class="packed">
-            <div class="packed-item mx-auto max-width overflow-hidden px-4 md:px-8 2xl:px-0">
-                <div class="container flex gap-32 items-center">
-                    <div class="item-left w-1/2">
-                        <h5 class="font-medium text-black tracking-wide">Launch Your SaaS Fast</h5>
-                        <h1 class="text-4.5xl text-black font-bold mb-6">Packed with All Essential 
-                            <span class="relative ml-2.5 inline-block before:absolute before:bottom-2 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg2 dark:before:bg-titlebgdark">Integrations</span></h1>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies lacus non fermentum ultrices. Fusce consectetur le.</p>
-                        
-                        <div class="item-child text-black inline-flex gap-10 mt-6">
-                            <div class="item-child1 ">
-                                <a href="#">Know More</a>
-                            </div>
-                            <div class="item-arrow ">
-                                <i class="fa fa-arrow-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item-right w-1/2">
-                        <img src="../images/over-view.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="soild relative mx-auto px-4 md:px-8 2xl:px-0 lg:pb-24">
-          <div class="relative mx-auto max-w-3xl px-4 md:px-8 2xl:px-0">
-            <div class="item-img absolute -top-16 -z-1 mx-auto h-[350px] w-[90%] ">
-              <img src="../images/dotted-shape.png" alt="">
-            </div>
-            <div class="soild-text item-header max-w-3xl animate_top mb-15 flex flex-wrap justify-evenly rounded-[10px] border bg-white md:flex-nowrap md:items-center lg:gap-8 xl:mb-20 xl:gap-12">
-                <div class="relative flex w-full cursor-pointer items-center gap-4 border-b border-stroke px-13 py-5 last:border-0 dark:border-strokedark md:w-auto md:border-0 xl:px-13.5 xl:py-5 active before:absolute before:bottom-0 before:left-0 before:h-1 before:w-full before:rounded-tl-[4px] before:rounded-tr-[4px] before:bg-primary">
-                  <div class="text text-child h-14 w-14 flex items-center justify-center border border-stroke dark:border-strokedark dark:bg-blacksection rounded-[50%]">
-                    <a class="font-medium text-black" href="#">1</a>
-                  </div>
-                  <div>
-                    <h5 class="text-base font-medium text-black dark:text-white xl:text-regular">Clean User Interface</h5>
-                  </div>
-                </div>
-
-                <div class="relative flex w-full cursor-pointer items-center gap-4 border-b border-stroke px-13 py-5 last:border-0 dark:border-strokedark md:w-auto md:border-0 xl:px-13.5 xl:py-5 active before:absolute before:bottom-0 before:left-0 before:h-1 before:w-full before:rounded-tl-[4px] before:rounded-tr-[4px] before:bg-primary">
-                  <div class="text text-child h-14 w-14 flex items-center justify-center border border-stroke dark:border-strokedark dark:bg-blacksection rounded-[50%] ">
-                    <a class="font-medium text-black" href="#">2</a>
-                  </div>
-                  <div>
-                    <h5 class="text-base font-medium text-black dark:text-white xl:text-regular">Essential Business Pages</h5>
-                  </div>
-                </div>
-
-                <div class="relative flex w-full cursor-pointer items-center gap-4 border-b border-stroke px-13 py-5 last:border-0 dark:border-strokedark md:w-auto md:border-0 xl:px-13.5 xl:py-5 active before:absolute before:bottom-0 before:left-0 before:h-1 before:w-full before:rounded-tl-[4px] before:rounded-tr-[4px] before:bg-primary">
-                  <div class="text text-child h-14 w-14 flex items-center justify-center border border-stroke dark:border-strokedark dark:bg-blacksection rounded-[50%] ">
-                    <a class="font-medium text-black" href="#">3</a>
-                  </div>
-                  <div>
-                    <h5 class="text-base font-medium text-black dark:text-white xl:text-regular">Fully Functional Integrations</h5>
-                  </div>
-                </div>
-            </div>
-            <div class="soild-text mx-auto max-w-3.5xl">
-              <div class="block">
-                <div class=" flex items-center gap-8 lg:gap-20"> 
-                  <div class="left md:w-1/2">
-                    <h1 class="text-3.5 font-bold mb-7 text-black">Solid UI with Solid Features.</h1>
-
-                  <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies lacus non fermentum ultrices. Fusce consectetur le.</p>
-
-                  <p class="w-11/12">Nam id eleifend dui, id iaculis purus. Etiam lobortis neque nec finibus sagittis. Nulla ligula nunc egestas ut.</p>
-                  </div>
-
-                  <div class="right relative mx-auto hidden max-w-[550px] md:block md:w-1/2">
-                    <img src="../images/soil.png" alt="">
-                  </div>
-                </div>
-
-                
+            <div class="img-right relative w-1/2 inset-0">
+              <div class="item-2 relative">
+                <img
+                  class="banner-left absolute"
+                  src="../images/banner-left.png"
+                  alt=""
+                />
+              </div>
+              <div class="item-1">
+                <img
+                  class="h-full absolute dark:hidden inset-0"
+                  src="../images/banner.png"
+                  alt=""
+                />
+                <img
+                  class="star-1 absolute z-10"
+                  src="../images/star 1.png"
+                  alt=""
+                />
+                <img
+                  class="star-2 absolute z-10"
+                  src="../images/star 2.png"
+                  alt=""
+                />
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </div>
 
-        <section class="trusted px-4 py-20 md:px-8 lg:py-22.5 2xl:px-0">
-          <div class="relative z-1 mx-auto max-w-3xl rounded-lg bg-gradient-to-t from-[#F8F9FF] to-[#DEE7FF] py-22.5 dark:bg-blacksection dark:bg-gradient-to-t dark:from-transparent dark:to-transparent dark:stroke-strokedark xl:py-27.5">
-             
-            <img class="absolute -left-15 top-105px -z-1 " width="335" height="384" src="../images/man.png" alt="">
-            <img class="absolute right-0 bottom-0" width="132px" height="132px" src="../images/blue-red-yellow.png" alt="">
-            <img class="absolute" src="../images/image copy 7.png" alt="">
+      <section
+        class="logo border border-x-0 border-y-stroke bg-alabaster py-11 dark:border-y-strokedark dark:bg-black"
+      >
+        <div class="mx-auto px-4 md:px-8 2xl:px-0">
+          <div
+            class="grid grid-cols-3 items-center justify-center gap-7.5 md:grid-cols-6 lg:gap-12.5 xl:gap-29"
+          >
+            <a
+              href="#"
+              class="flex items-center md:justify-center animate_top relative"
+            >
+              <img
+                class="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden h-7 hover:text-gray-900 dark:hover:text-white"
+                fill="none"
+                src="../images/logitech.png"
+                alt=""
+              />
+            </a>
 
-          <div class="container mx-auto mb-14 px-4 text-center md:w-4/5 md:px-0 lg:mb-17.5 lg:w-2/3 xl:w-1/2">
-            <h2 class="mb-4 text-4.5xl font-bold text-black dark:text-white xl:text-sectiontitle3">Trusted by Global Companies.</h2>
+            <a href="#" class="flex items-center md:justify-center">
+              <img
+                class="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden h-7 hover:text-gray-900 dark:hover:text-white"
+                fill="none"
+                src="../images/dropcam.png"
+                alt="Dropcam"
+              />
+            </a>
+
+            <a href="#" class="flex items-center md:justify-center">
+              <img
+                class="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden h-8 hover:text-gray-900 dark:hover:text-white"
+                fill="none"
+                src="../images/amd.png"
+                alt="AMD"
+              />
+            </a>
+
+            <a href="#" class="flex items-center md:justify-center">
+              <img
+                class="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden h-8 hover:text-gray-900 dark:hover:text-white"
+                fill="none"
+                src="../images/logo-nike.png"
+                alt="Logo-Nike"
+              />
+            </a>
+
+            <a href="#" class="flex items-center md:justify-center">
+              <img
+                class="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden h-8 hover:text-gray-900 dark:hover:text-white"
+                fill="none"
+                src="../images/mandiri.png"
+                alt="Mandiri"
+              />
+            </a>
+
+            <a href="#" class="flex items-center md:justify-center">
+              <img
+                class="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden h-8 hover:text-gray-900 dark:hover:text-white"
+                fill="none"
+                src="../images/amazon.png"
+                alt="Amazon"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="text-features py-20 lg:py-25 xl:py-30 mx-20">
+        <div class="container mx-auto md:px-8 xl:px-0">
+          <div class="item content-center text-center">
+            <button
+              type="button"
+              class="text-black font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 cursor-text background-features"
+            >
+              SOLID FEATURES
+            </button>
+            <h1
+              class="mx-auto mb-4 font-bold text-black dark:text-white md:w-4/5 xl:w-1/2 xl:text-sectiontitle3 text-4.5xl"
+            >
+              Core Features of Solid
+            </h1>
+            <p class="">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+              convallis tortor eros. <br />
+              Donec vitae tortor lacus. Phasellus aliquam ante in maximus.
+            </p>
+          </div>
+        </div>
+        <div
+          class="container-2 mt-12.5 grid md:grid-cols-1 lg:grid-cols-2 lg:mt-15 xl:grid-cols-3 xl:mt-20 xl:gap-9"
+        >
+          <div
+            class="item rounded-lg border border-white bg-white p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl p-9"
+          >
+            <img
+              class="bg-blue-600 h-16 w-16"
+              src="../images/image copy.png"
+              alt=""
+            />
+            <h3 class="mb-5 mt-7 text-black text-2.5xl font-semibold">
+              Sanity Blog and Docs
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+              convallis tortor.
+            </p>
+          </div>
+          <div
+            class="item rounded-lg border border-white bg-white p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl p-9"
+          >
+            <img
+              class="bg-blue-600 h-16 w-16"
+              src="../images/image copy 2.png"
+              alt=""
+            />
+            <h3 class="mb-5 mt-7 text-black text-2.5xl font-semibold">
+              Sanity Blog and Docs
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+              convallis tortor.
+            </p>
+          </div>
+          <div
+            class="item rounded-lg border border-white bg-white p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl p-9"
+          >
+            <img
+              class="bg-blue-600 h-16 w-16"
+              src="../images/image copy 3.png"
+              alt=""
+            />
+            <h3 class="mb-5 mt-7 text-black text-2.5xl font-semibold">
+              Sanity Blog and Docs
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+              convallis tortor.
+            </p>
+          </div>
+          <div
+            class="item rounded-lg border border-white bg-white p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl p-9"
+          >
+            <img
+              class="bg-blue-600 h-16 w-16"
+              src="../images/image copy 4.png"
+              alt=""
+            />
+            <h3 class="mb-5 mt-7 text-black text-2.5xl font-semibold">
+              Sanity Blog and Docs
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+              convallis tortor.
+            </p>
+          </div>
+          <div
+            class="item rounded-lg border border-white bg-white p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl p-9"
+          >
+            <img
+              class="bg-blue-600 h-16 w-16"
+              src="../images/image copy 5.png"
+              alt=""
+            />
+            <h3 class="mb-5 mt-7 text-black text-2.5xl font-semibold">
+              Sanity Blog and Docs
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+              convallis tortor.
+            </p>
+          </div>
+          <div
+            class="item rounded-lg border border-white bg-white p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl p-9"
+          >
+            <img
+              class="bg-blue-600 h-16 w-16"
+              src="../images/image copy 6.png"
+              alt=""
+            />
+            <h3 class="mb-5 mt-7 text-black text-2.5xl font-semibold">
+              Sanity Blog and Docs
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+              convallis tortor.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="complete pb-28">
+        <div class="max-width mx-auto px-4 md:px-8 xl:px-0">
+          <div class="container flex lg:gap-32">
+            <div class="item-left md:w-1/2">
+              <img src="../images/complete.png" alt="" />
+            </div>
+            <div class="item-right md:w-1/2">
+              <h3 class="font-medium uppercase text-black dark:text-white">
+                <span
+                  class="mb-4 mr-4 inline-flex rounded-full bg-meta px-4 py-1 text-metatitle uppercase text-white bg-emerald-300"
+                  >New</span
+                >SaaS Boilerplate for Next.js
+              </h3>
+
+              <h1 class="text-44xl font-bold text-black mb-6">
+                A Complete Solution for<span
+                  class="relative ml-2.5 inline-block before:absolute before:bottom-4 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark"
+                  >SaaS Startup</span
+                >
+              </h1>
+
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                ultricies lacus non fermentum ultrices. Fusce consectetur le.
+              </p>
+              <div class="text flex items-center mt-1.875">
+                <div
+                  class="text-child h-14 w-14 flex items-center justify-center border border-stroke dark:border-strokedark dark:bg-blacksection rounded-[50%]"
+                >
+                  <p class="font-semibold text-xl text-black dark:text-white">
+                    01
+                  </p>
+                </div>
+                <div class="child-1 w-3/4 ml-6">
+                  <h4 class="mb-1 text-xl text-black font-inherit">
+                    Mailchimp for Newsletter Emails + SMTP for Transactional
+                    Emails
+                  </h4>
+                  <h5>Ut ultricies lacus non fermentum ultrices.</h5>
+                </div>
+              </div>
+              <div class="text flex items-center mt-1.875">
+                <div
+                  class="text-child h-14 w-14 flex items-center justify-center border border-stroke dark:border-strokedark dark:bg-blacksection rounded-[50%]"
+                >
+                  <p class="font-semibold text-xl text-black dark:text-white">
+                    02
+                  </p>
+                </div>
+                <div class="child-1 w-3/4 ml-6">
+                  <h4 class="mb-1 text-xl text-black font-inherit">
+                    Algolia Integration for Site Search
+                  </h4>
+                  <h5>consectetur adipiscing elit fermentum ultricies.</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="packed">
+        <div
+          class="packed-item mx-auto max-width overflow-hidden px-4 md:px-8 2xl:px-0"
+        >
+          <div class="container flex gap-32 items-center">
+            <div class="item-left w-1/2">
+              <h5 class="font-medium text-black tracking-wide">
+                Launch Your SaaS Fast
+              </h5>
+              <h1 class="text-4.5xl text-black font-bold mb-6">
+                Packed with All Essential
+                <span
+                  class="relative ml-2.5 inline-block before:absolute before:bottom-2 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg2 dark:before:bg-titlebgdark"
+                  >Integrations</span
+                >
+              </h1>
+
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                ultricies lacus non fermentum ultrices. Fusce consectetur le.
+              </p>
+
+              <div class="item-child text-black inline-flex gap-10 mt-6">
+                <div class="item-child1">
+                  <a href="#">Know More</a>
+                </div>
+                <div class="item-arrow">
+                  <i class="fa fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+            <div class="item-right w-1/2">
+              <img src="../images/over-view.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="soild relative mx-auto px-4 md:px-8 2xl:px-0 lg:pb-24">
+        <div class="relative mx-auto max-w-3xl px-4 md:px-8 2xl:px-0">
+          <div class="item-img absolute -top-16 -z-1 mx-auto h-[350px] w-[90%]">
+            <img src="../images/dotted-shape.png" alt="" />
+          </div>
+          <div
+            class="soild-text item-header max-w-3xl animate_top mb-15 flex flex-wrap justify-evenly rounded-[10px] border bg-white md:flex-nowrap md:items-center lg:gap-8 xl:mb-20 xl:gap-12"
+          >
+            <div
+              class="relative flex w-full cursor-pointer items-center gap-4 border-b border-stroke px-13 py-5 last:border-0 dark:border-strokedark md:w-auto md:border-0 xl:px-13.5 xl:py-5 active before:absolute before:bottom-0 before:left-0 before:h-1 before:w-full before:rounded-tl-[4px] before:rounded-tr-[4px] before:bg-primary"
+            >
+              <div
+                class="text text-child h-14 w-14 flex items-center justify-center border border-stroke dark:border-strokedark dark:bg-blacksection rounded-[50%]"
+              >
+                <a class="font-medium text-black" href="#">1</a>
+              </div>
+              <div>
+                <h5
+                  class="text-base font-medium text-black dark:text-white xl:text-regular"
+                >
+                  Clean User Interface
+                </h5>
+              </div>
+            </div>
+
+            <div
+              class="relative flex w-full cursor-pointer items-center gap-4 border-b border-stroke px-13 py-5 last:border-0 dark:border-strokedark md:w-auto md:border-0 xl:px-13.5 xl:py-5 active before:absolute before:bottom-0 before:left-0 before:h-1 before:w-full before:rounded-tl-[4px] before:rounded-tr-[4px] before:bg-primary"
+            >
+              <div
+                class="text text-child h-14 w-14 flex items-center justify-center border border-stroke dark:border-strokedark dark:bg-blacksection rounded-[50%]"
+              >
+                <a class="font-medium text-black" href="#">2</a>
+              </div>
+              <div>
+                <h5
+                  class="text-base font-medium text-black dark:text-white xl:text-regular"
+                >
+                  Essential Business Pages
+                </h5>
+              </div>
+            </div>
+
+            <div
+              class="relative flex w-full cursor-pointer items-center gap-4 border-b border-stroke px-13 py-5 last:border-0 dark:border-strokedark md:w-auto md:border-0 xl:px-13.5 xl:py-5 active before:absolute before:bottom-0 before:left-0 before:h-1 before:w-full before:rounded-tl-[4px] before:rounded-tr-[4px] before:bg-primary"
+            >
+              <div
+                class="text text-child h-14 w-14 flex items-center justify-center border border-stroke dark:border-strokedark dark:bg-blacksection rounded-[50%]"
+              >
+                <a class="font-medium text-black" href="#">3</a>
+              </div>
+              <div>
+                <h5
+                  class="text-base font-medium text-black dark:text-white xl:text-regular"
+                >
+                  Fully Functional Integrations
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="soild-text mx-auto max-w-3.5xl">
+            <div class="block">
+              <div class="flex items-center gap-8 lg:gap-20">
+                <div class="left md:w-1/2">
+                  <h1 class="text-3.5 font-bold mb-7 text-black">
+                    Solid UI with Solid Features.
+                  </h1>
+
+                  <p class="mb-5">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                    ultricies lacus non fermentum ultrices. Fusce consectetur
+                    le.
+                  </p>
+
+                  <p class="w-11/12">
+                    Nam id eleifend dui, id iaculis purus. Etiam lobortis neque
+                    nec finibus sagittis. Nulla ligula nunc egestas ut.
+                  </p>
+                </div>
+
+                <div
+                  class="right relative mx-auto hidden max-w-[550px] md:block md:w-1/2"
+                >
+                  <img src="../images/soil.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trusted px-4 py-20 md:px-8 lg:py-22.5 2xl:px-0">
+        <div
+          class="relative z-1 mx-auto max-w-3xl rounded-lg bg-gradient-to-t from-[#F8F9FF] to-[#DEE7FF] py-22.5 dark:bg-blacksection dark:bg-gradient-to-t dark:from-transparent dark:to-transparent dark:stroke-strokedark xl:py-27.5"
+        >
+          <img
+            class="absolute -left-15 top-105px -z-1"
+            width="335"
+            height="384"
+            src="../images/man.png"
+            alt=""
+          />
+          <img
+            class="absolute right-0 bottom-0"
+            width="132px"
+            height="132px"
+            src="../images/blue-red-yellow.png"
+            alt=""
+          />
+          <img class="absolute" src="../images/image copy 7.png" alt="" />
+
+          <div
+            class="container mx-auto mb-14 px-4 text-center md:w-4/5 md:px-0 lg:mb-17.5 lg:w-2/3 xl:w-1/2"
+          >
+            <h2
+              class="mb-4 text-4.5xl font-bold text-black dark:text-white xl:text-sectiontitle3"
+            >
+              Trusted by Global Companies.
+            </h2>
             <p class="mx-auto lg:w-11/12">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+              convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
+              ante in maximus.
             </p>
           </div>
 
           <div class="container flex flex-wrap justify-center gap-8 lg:gap-33">
             <div class="text-center">
-              <h3 class="mb-2.5 text-4.5xl font-bold text-black dark:text-white ">500K</h3>
+              <h3
+                class="mb-2.5 text-4.5xl font-bold text-black dark:text-white"
+              >
+                500K
+              </h3>
               <p class="text-lg lg:text-para2">World Wide Clients</p>
             </div>
 
             <div class="text-center">
-              <h3 class="mb-2.5 text-4.5xl font-bold text-black dark:text-white ">1M+</h3>
+              <h3
+                class="mb-2.5 text-4.5xl font-bold text-black dark:text-white"
+              >
+                1M+
+              </h3>
               <p class="text-lg lg:text-para2">Downloads</p>
             </div>
 
             <div class="text-center">
-              <h3 class="mb-2.5 text-4.5xl font-bold text-black dark:text-white ">865</h3>
+              <h3
+                class="mb-2.5 text-4.5xl font-bold text-black dark:text-white"
+              >
+                865
+              </h3>
               <p class="text-lg lg:text-para2">Winning Award</p>
             </div>
           </div>
-          </div>
-        </section>
+        </div>
+      </section>
     </main>
 
-    
+    <!-- Son Huynh -->
+    <!-- integrations -->
+    <section class="inte">
+      <div class="container mx-auto">
+        <div class="inte__list mt-20">
+          <div class="inte__text text-center">
+            <span class="px-8 py-5 bg-[#edf4ff] rounded-full font-normal"
+              >INTEGRATION</span
+            >
+            <h2 class="text-black font-bold text-5xl my-5 mt-9">
+              Packed with all the key <br />
+              integrations you need
+            </h2>
+            <p class="font-light text-2xl">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+              cumque architecto voluptatum vitae, <br />
+              velit magni nobis earum, voluptas animi, cum quae.
+            </p>
+          </div>
+          <div class="inte__icon bg_img mt-32">
+            <div class="up__item flex">
+              <div class="icon w-1/6">
+                <img
+                  class="md:w-[81px] h-auto"
+                  src="../images/icons8-slack-96.png"
+                  alt=""
+                />
+              </div>
+              <div class="icon w-1/6">
+                <div class="h-auto md:w-[11px] rounded-full"></div>
+              </div>
+              <div class="icon w-1/6">
+                <img src="../images/trello.png" alt="" />
+              </div>
+              <div class="icon w-1/6">
+                <div
+                  class="md:h-[11px] md:w-[11px] rounded-full bg-[#FFDB26]"
+                ></div>
+              </div>
+              <div class="icon w-1/6">
+                <img class="md:w-[74px]" src="../images/skype.png" alt="" />
+              </div>
+              <div class="icon w-1/6">
+                <div class="h-[11px] md:w-[11px] rounded-full"></div>
+              </div>
+            </div>
+            <div class="down__item flex mt-18">
+              <div class="icon w-1/6">
+                <div class="h-[15px] w-[15px] rounded-full bg-[#62E888]"></div>
+              </div>
+              <div class="icon w-1/6">
+                <img class="w-[74px]" src="../images/discord.png" alt="" />
+              </div>
+              <div class="icon w-1/6">
+                <div class="h-[23px] w-[23px] rounded-full bg-[#EF5C00]"></div>
+              </div>
+              <div class="icon w-1/6">
+                <img class="w-[74px]" src="../images/letter-s.png" alt="" />
+              </div>
+              <div class="icon w-1/6">
+                <div class="h-[15px] w-[15px] rounded-full bg-[#016BFF]"></div>
+              </div>
+              <div class="icon w-1/6">
+                <img class="w-[74px]" src="../images/pngegg.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- banner sign up -->
+    <section class="sign-up mt-32">
+      <div
+        class="container mx-auto flex bg-gradient-to-t from-[#F8F9FF] to-[#DEE7FF] p-16 rounded-lg"
+      >
+        <div class="sign__left mt-24">
+          <h2 class="text-4xl font-bold">
+            Join With Us Today & Increase <br />
+            Your Productivity
+          </h2>
+          <p class="mt-12 font-light text-xl">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+            convallis tortor eros. <br />
+            Donec vitae tortor lacus. Phasellus aliquam ante in maximus.
+          </p>
+        </div>
+        <div class="sign_right flex">
+          <img class="w-full h-auto" src="../images/image.webp" alt="" />
+        </div>
+        <div class="ml-32">
+          <button
+            class="mt-40 w-full text-white px-8 py-5 bg-[#1a1a2f] rounded-full main"
+          >
+            Sign up free
+            <i class="fa fa-arrow-right change text-white change"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- FAQS -->
+    <section class="faqs mt-20">
+      <div class="container mx-auto flex">
+        <div class="faqs_left w-3/6">
+          <div class="content_left w-full mt-32 ml-32">
+            <p class="font-normal">OUR FAQS</p>
+            <h2 class="text-5xl font-bold mt-2 mb-14">
+              Frequently Asked <br />
+              Questions
+            </h2>
+            <div>
+              <a href=""> Know More <i class="fa fa-arrow-right ml-2"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="faqs__righ w-3/6">
+          <div class="content_right w-full p-16">
+            <div class="item border-b-2 px-16 py-10 text-xl">
+              Lorem ipsum dolor sit amet, consectetur
+              <a href="#"><i class="fa fa-plus ml-20"></i></a>
+              <p class="border-t mt-5 py-4 hidden">
+                We provide digital experience services to startups and small
+                businesses. We help our clients succeed by creating brand
+                identities, digital experiences.
+              </p>
+            </div>
+
+            <div class="item px-16 py-10 border-b-2 text-xl">
+              Lorem ipsum dolor sit amet, consectetur
+              <a href="#"><i class="fa fa-plus ml-20"></i></a>
+              <p class="border-t mt-5 py-4 hidden">
+                We provide digital experience services to startups and small
+                businesses. We help our clients succeed by creating brand
+                identities, digital experiences.
+              </p>
+            </div>
+
+            <div class="item px-16 py-10 border-b-2 text-xl">
+              Lorem ipsum dolor sit amet, consectetur
+              <a href="#"><i class="fa fa-plus ml-20"></i></a>
+              <p class="border-t mt-5 py-4 hidden">
+                We provide digital experience services to startups and small
+                businesses. We help our clients succeed by creating brand
+                identities, digital experiences.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Client testimonials -->
+    <section class="testimon mb-32">
+      <div class="container mx-auto">
+        <div class="client__text text-center mb-12">
+          <span class="px-8 py-5 bg-[#edf4ff] rounded-full font-normal"
+            >TESTIMONIALS</span
+          >
+
+          <h2 class="text-black font-bold text-5xl my-7 mt-10">
+            Client’s Testimonials
+          </h2>
+          <p class="font-light text-xl">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+            convallis tortor eros. <br />
+            Donec vitae tortor lacus. Phasellus aliquam ante in maximus.
+          </p>
+        </div>
+        <div class="client w-full">
+          <div class="client__js">
+            <div class="table__item py-10 px-20 w-1/2">
+              <div class="table__up flex mb-8 border-b-2 py-5">
+                <div>
+                  <h3>Devid Smith</h3>
+                  <p>Founter@democompany</p>
+                </div>
+                <div>
+                  <img class="ml-80" src="../images/image (1).webp" alt="" />
+                </div>
+              </div>
+
+              <div class="table__down mt-6">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Necessitatibus neque nesciunt sed deleniti recusandae error
+                  fuga similique nemo et laboriosam! Magnam, facere quasi! Rem,
+                  laudantium.
+                </p>
+              </div>
+            </div>
+            <div class="table__item py-10 px-20 w-1/2">
+              <div class="table__up flex mb-8 border-b-2 py-5">
+                <div>
+                  <h3>Devid Smith</h3>
+                  <p>Founter@democompany</p>
+                </div>
+                <div>
+                  <img class="ml-80" src="../images/image (2).webp" alt="" />
+                </div>
+              </div>
+
+              <div class="table__down mt-6">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Necessitatibus neque nesciunt sed deleniti recusandae error
+                  fuga similique nemo et laboriosam! Magnam, facere quasi! Rem,
+                  laudantium.
+                </p>
+              </div>
+            </div>
+            <div class="table__item py-10 px-20 w-1/2">
+              <div class="table__up flex mb-8 border-b-2 py-5">
+                <div>
+                  <h3>Devid Smith</h3>
+                  <p>Founter@democompany</p>
+                </div>
+                <div>
+                  <img class="ml-80" src="../images/image (1).webp" alt="" />
+                </div>
+              </div>
+
+              <div class="table__down mt-6">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Necessitatibus neque nesciunt sed deleniti recusandae error
+                  fuga similique nemo et laboriosam! Magnam, facere quasi! Rem,
+                  laudantium.
+                </p>
+              </div>
+            </div>
+            <div class="table__item py-10 px-20 w-1/2">
+              <div class="table__up flex mb-8 border-b-2 py-5">
+                <div>
+                  <h3>Devid Smith</h3>
+                  <p>Founter@democompany</p>
+                </div>
+                <div>
+                  <img class="ml-80" src="../images/image (2).webp" alt="" />
+                </div>
+              </div>
+
+              <div class="table__down mt-6">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Necessitatibus neque nesciunt sed deleniti recusandae error
+                  fuga similique nemo et laboriosam! Magnam, facere quasi! Rem,
+                  laudantium.
+                </p>
+              </div>
+            </div>
+            <div class="table__item py-10 px-20 w-1/2">
+              <div class="table__up flex mb-8 border-b-2 py-5">
+                <div>
+                  <h3>Devid Smith</h3>
+                  <p>Founter@democompany</p>
+                </div>
+                <div>
+                  <img class="ml-80" src="../images/image (1).webp" alt="" />
+                </div>
+              </div>
+
+              <div class="table__down mt-6">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Necessitatibus neque nesciunt sed deleniti recusandae error
+                  fuga similique nemo et laboriosam! Magnam, facere quasi! Rem,
+                  laudantium.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pricing Plans -->
+    <section class="pricing">
+      <div class="container mx-auto">
+        <div>
+          <div class="pricing__text text-center mb-12">
+            <span class="px-8 py-5 bg-[#edf4ff] rounded-full font-normal"
+              >PRICING PLANS</span
+            >
+            <h2 class="text-black font-bold text-5xl my-9">Simple Pricing</h2>
+            <p class="font-light text-2xl">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+              convallis tortor eros. <br />
+              Donec vitae tortor lacus. Phasellus aliquam ante in maximus.
+            </p>
+          </div>
+          <div class="pricing__table flex">
+            <div class="item__table w-2/6 border-2 p-10">
+              <div class="item__up">
+                <div class="pricing_item p-10 border-b-2">
+                  <p><span class="font-bold text-5xl">$ 100</span>/month</p>
+                  <h3 class="font-medium mt-10 mb-8">Small pack</h3>
+                  <p class="font-extralight">
+                    Lorem ipsum dolor sit amet, <br />
+                    consec adipisicing elit.
+                  </p>
+                </div>
+              </div>
+              <div class="item__down p-10">
+                <p class="mb-4">300 GB Storage</p>
+                <p class="mb-4">Unlimited Photos and Videos</p>
+                <p class="font-extralight mb-4">Exclusive Support</p>
+                <p class="font-extralight">Custom Branding Strategy</p>
+              </div>
+              <div class="iem__icon p-10 text-blue-600">
+                <a href="#"
+                  >Get the plan <i class="fa fa-arrow-right ml-2"></i
+                ></a>
+              </div>
+            </div>
+            <div class="item__table w-2/6 border-2 p-10 mx-10">
+              <div class="item__up">
+                <div class="box__pricing -rotate-90">
+                  <span class="bg-[#006ff9] px-4 py-2 rounded-l-full text-white"
+                    >POPULAR</span
+                  >
+                </div>
+                <div class="pricing_item p-10 border-b-2">
+                  <p><span class="font-bold text-5xl">$ 200</span>/month</p>
+                  <h3 class="font-medium mt-10 mb-8">Medium pack</h3>
+                  <p class="font-extralight">
+                    Lorem ipsum dolor sit amet, <br />
+                    consec adipisicing elit.
+                  </p>
+                </div>
+              </div>
+              <div class="item__down p-10">
+                <p class="mb-4">300 GB Storage</p>
+                <p class="mb-4">Unlimited Photos and Videos</p>
+                <p class="font-normal mb-4">Exclusive Support</p>
+                <p class="font-extralight">Custom Branding Strategy</p>
+              </div>
+              <div class="iem__icon p-10 text-blue-600">
+                <a href="#"
+                  >Get the plan <i class="fa fa-arrow-right ml-2"></i
+                ></a>
+              </div>
+            </div>
+            <div class="item__table w-2/6 border-2 p-10">
+              <div class="item__up">
+                <div class="pricing_item p-10 border-b-2">
+                  <p><span class="font-bold text-5xl">$ 300</span>/month</p>
+                  <h3 class="font-medium mt-10 mb-8">Large pack</h3>
+                  <p class="font-extralight">
+                    Lorem ipsum dolor sit amet, <br />
+                    consec adipisicing elit.
+                  </p>
+                </div>
+              </div>
+              <div class="item__down p-10">
+                <p class="mb-4">300 GB Storage</p>
+                <p class="mb-4">Unlimited Photos and Videos</p>
+                <p class="font-normal mb-4">Exclusive Support</p>
+                <p class="font-normal">Custom Branding Strategy</p>
+              </div>
+              <div class="iem__icon p-10 text-blue-600">
+                <a href="#"
+                  >Get the plan <i class="fa fa-arrow-right ml-2"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- send a meesage -->
+    <section class="message_find mt-20">
+      <div class="container mx-auto p-16 bg-[#f7f9fe] flex">
+        <div class="mess p-12 bg-white w-2/3">
+          <h2 class="mb-8 text-5xl font-semibold">Send a message</h2>
+          <div>
+            <div class="flex">
+              <input
+                type="text"
+                placeholder="Full name"
+                class="w-full mr-8 mb-8 border-x-0 border-t-0 border-zinc-800"
+              />
+              <input
+                type="text"
+                placeholder="Email address"
+                class="w-full mb-8 border-x-0 border-t-0 border-zinc-800"
+              />
+            </div>
+            <div class="flex lg:justify-between">
+              <input
+                type="text"
+                placeholder="Full name"
+                class="w-full mr-8 border-x-0 border-t-0 border-zinc-800"
+              />
+              <input
+                type="text"
+                placeholder="Email address"
+                class="w-full border-x-0 border-t-0 border-zinc-800"
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                placeholder="Message"
+                class="w-full mt-9 border-x-0 border-t-0 border-zinc-800 pb-14"
+              />
+            </div>
+            <div class="mt-9 flex">
+              <div>
+                <input
+                  type="checkbox"
+                  class="w-4 h-4 border border-gray-300 rounded bg-gray-50"
+                />
+                <label for="" class="font-extralight ml-1"
+                  >By clicking Checkbox, you agree to use our "Form" terms
+                  <br />
+                  And consent cookie usage in browser</label
+                >
+              </div>
+              <div>
+                <button
+                  class="py-4 px-10 bg-[#181b30] hover:bg-[#7b7b7c] ml-40 text-white rounded-full"
+                >
+                  Send Message <i class="fa fa-arrow-right text-white ml-2"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="find__us w-1/3 p-12 mb-6">
+          <h2 class="mb-10 text-5xl font-semibold">Find us</h2>
+          <p class="font-medium">Our Loaction</p>
+          <p class="text-gray-500 my-5">
+            290 Maryam Springs 260, Courbevoie, Paris, France
+          </p>
+          <p class="font-medium mb-5">Email Address</p>
+          <a class="text-gray-500" href="#">yourmail@domainname.com</a>
+          <p class="font-medium my-5">Phone Number</p>
+          <a class="text-gray-500" href="tell:+009 42334 6343 843"
+            >+009 42334 6343 843</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- News & blogs -->
+    <section class="news__blogs mt-16 mb-16">
+      <div class="container mx-auto">
+        <div class="info__news">
+          <div class="text-center mb-12">
+            <span class="px-8 py-5 bg-[#edf4ff] rounded-full font-normal"
+              >News & Blogs</span
+            >
+            <h2 class="text-black font-bold text-5xl my-9">
+              Latest News & Blogs
+            </h2>
+            <p class="font-light text-xl">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+              convallis tortor eros. <br />
+              Donec vitae tortor lacus. Phasellus aliquam ante in maximus.
+            </p>
+          </div>
+        </div>
+        <div class="info__blogs p-20">
+          <div class="flex">
+            <div class="item__blog w-1/3 p-6 shadow-2xl">
+              <img
+                src="../images/9e6b67ab379a182243ac521db056e96918ff1b5d-1000x667.webp"
+                class="w-full h-72 mb-8 rounded-lg"
+                alt=""
+              />
+              <h3 class="text-3xl font-semibold text-black hover:text-blue-600">
+                <a class="" href="#"
+                  >Exploring MERN Stack: Powering Modern We...</a
+                >
+              </h3>
+              <p class="mt-8">
+                In the world of web development, staying ahead of the curve is
+                crucial. One technology stack that ha
+              </p>
+            </div>
+            <div class="item__blog w-1/3 p-6 shadow-2xl mx-9">
+              <img
+                src="../images/b34fca863dc4efa821da4e71328ec9718ab14062-970x440.webp"
+                class="w-full h-72 mb-8 rounded-lg"
+                alt=""
+              />
+              <h3 class="text-3xl font-semibold text-black hover:text-blue-600">
+                <a class="" href="#"
+                  >Best UI components for modern website...</a
+                >
+              </h3>
+              <p class="mt-8">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                occaecat...
+              </p>
+            </div>
+            <div class="item__blog w-1/3 p-6 shadow-2xl">
+              <img
+                src="../images/f492eebba9742b0c8c71dd541bd123cdd4fe2130-970x440.webp"
+                class="w-full h-72 mb-8 rounded-lg"
+                alt=""
+              />
+              <h3 class="text-3xl font-semibold text-black hover:text-blue-600">
+                <a class="" href="#"
+                  >The Power of UI/UX: Elevating Digital Ex...</a
+                >
+              </h3>
+              <p class="mt-8">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                sit amet dictum neque, laoreet dolor.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <br />
+    <hr />
+    <!--solid -->
+    <div class="solid mt-20">
+      <div class="container mx-auto">
+        <div class="solid__contact flex place-content-around">
+          <div class="contact__item">
+            <div>
+              <img class="w-36 h-10" src="../images/logo-light.png" alt="" />
+            </div>
+            <p class="mt-4 mb-7 font-extralight text-lg">
+              Lorem ipsum dolor sit amet, consectetur <br />
+              adipiscing elit.
+            </p>
+            <p class="mb-2 font-light">C O N T A C T</p>
+            <a class="font-semibold text-3xl" href="mail:heelo@solid.com"
+              >hello@solid.com</a
+            >
+          </div>
+          <div class="quick__item">
+            <h3 class="font-medium text-3xl mb-9">Quick Links</h3>
+            <ul class="text-xl">
+              <li>
+                <a class="text-gray-500 hover:text-blue-700" href="#">Home</a>
+              </li>
+              <li class="my-4">
+                <a class="text-gray-500 hover:text-blue-700" href="#"
+                  >Product</a
+                >
+              </li>
+              <li>
+                <a class="text-gray-500 hover:text-blue-700" href="#"
+                  >Careers</a
+                >
+              </li>
+              <li class="mt-4">
+                <a class="text-gray-500 hover:text-blue-700" href="#"
+                  >Pricing</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="support__item">
+            <h3 class="font-medium text-3xl mb-9">Support</h3>
+            <ul class="text-xl">
+              <li>
+                <a class="text-gray-500 hover:text-blue-700" href="#"
+                  >Company</a
+                >
+              </li>
+              <li class="my-4">
+                <a class="text-gray-500 hover:text-blue-700" href="#"
+                  >Press media</a
+                >
+              </li>
+              <li>
+                <a class="text-gray-500 hover:text-blue-700" href="#"
+                  >Our Blog</a
+                >
+              </li>
+              <li class="mt-4 text-lg">
+                <a class="text-gray-500 hover:text-blue-700" href="#"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="newsletter">
+            <h3 class="font-medium text-3xl mb-9">Newsletter</h3>
+            <p class="text-gray-500 text-xl mb-4">
+              Subscribe to receive future <br />
+              updates
+            </p>
+            <input
+              type="text"
+              placeholder="Email address"
+              class="rounded-full py-4 px-10 absolute"
+            />
+            <div class="icon__letter">
+              <i class="fa fa-play text-gray-300"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="end mt-24">
+      <div class="container mx-auto border-t-2">
+        <div class="flex place-content-between py-10 px-24">
+          <div class="end__item flex text-xl">
+            <a class="text-gray-500 hover:text-blue-700" href="#">English</a>
+            <a class="mx-5 text-gray-500 hover:text-blue-700" href="#"
+              >Privact Policy</a
+            >
+            <a class="text-gray-500 hover:text-blue-700" href="#">Support</a>
+          </div>
+          <div class="end__item">
+            <p class="text-gray-500 text-lg">
+              © 2024 Solid. All rights reserved
+            </p>
+          </div>
+          <div class="end__item text-xl">
+            <a class="text-gray-300 hover:text-blue-700" href="#"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a class="text-gray-300 hover:text-blue-700 mx-4" href="#"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a class="text-gray-300 hover:text-blue-700" href="#"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a class="text-gray-300 hover:text-blue-700 ml-4" href="#"
+              ><i class="fab fa-behance"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- jquery migrate -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.5.2/jquery-migrate.min.js"
+      integrity="sha512-BzvgYEoHXuphX+g7B/laemJGYFdrq4fTKEo+B3PurSxstMZtwu28FHkPKXu6dSBCzbUWqz/rMv755nUwhjQypw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- slick js -->
+    <script src="../slick-1.8.1/slick/slick.min.js"></script>
     <!-- Flowbite -->
     <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+
+    <script>
+      $(".client__js").slick({
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        dots: true,
+      });
+    </script>
   </body>
 </html>
