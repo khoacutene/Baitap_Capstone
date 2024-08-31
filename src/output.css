@@ -1290,12 +1290,12 @@ input:checked + .toggle-bg {
   margin-left: 1rem;
 }
 
-.ml-6 {
-  margin-left: 1.5rem;
+.ml-40 {
+  margin-left: 10rem;
 }
 
-.ml-60 {
-  margin-left: 15rem;
+.ml-6 {
+  margin-left: 1.5rem;
 }
 
 .ml-80 {
@@ -1380,10 +1380,6 @@ input:checked + .toggle-bg {
 
 .mt-9 {
   margin-top: 2.25rem;
-}
-
-.ml-40 {
-  margin-left: 10rem;
 }
 
 .block {
@@ -2640,9 +2636,9 @@ main .soild .soild-text {
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
-.hover\:bg-\[\#f9f8fe\]:hover {
+.hover\:bg-\[\#7b7b7c\]:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(249 248 254 / var(--tw-bg-opacity));
+  background-color: rgb(123 123 124 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-blue-800:hover {
@@ -2663,21 +2659,6 @@ main .soild .soild-text {
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-\[\#d7d6da\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(215 214 218 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-\[\#f1f1f3\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 241 243 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-\[\#7b7b7c\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(123 123 124 / var(--tw-bg-opacity));
 }
 
 .hover\:text-blue-600:hover {
